@@ -1,0 +1,142 @@
+/*Header*/
+nav.navbar {
+  background-color: #fcf5e3;
+}
+
+header {
+  background-image: linear-gradient(to left, #f5c276, #fcf5e3);
+}
+header .img-logo {
+  text-align: center;
+}
+header .img-logo .logo {
+  width: 600px;
+  height: 200px;
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 50px;
+}
+header .menu {
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  width: 100%;
+}
+header .menu .text-menu {
+  color: #6b6666;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.menu-footer {
+  padding: 10px 50px 100px 50px;
+}
+.menu-footer .text-footer {
+  color: #6b6666;
+  padding: 10px;
+  text-decoration: none;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: #6b6666;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.galeria {
+  width: 100%;
+}
+
+.suscripcion {
+  text-align: center;
+  font-size: 40px;
+  color: #6b6666;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.sub-text {
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: #6b6666;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.col-sm-6 {
+  padding-top: 10px;
+}
+
+/*Html tops*/
+h1 {
+  padding: 15px;
+  margin-top: 15px;
+  text-align: center;
+  color: #6b6666;
+  background-color: #fcf5e3;
+}
+
+.Galeria {
+  padding: 40px;
+  text-align: center;
+}
+.Galeria .card {
+  padding: 15px;
+  margin-top: 10px;
+  display: inline-flex;
+}
+
+/* HTML pantalones*/
+
+.banner {
+  text-align: center;
+  width: 100%;
+}
+
+.Galeria-pantalones{
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.card-img-top {
+  width: 30rem;
+}
+
+.card-title {
+  text-align: center;
+}
+
+/*Media querys*/
+@media only screen and (max-width: 400px) {
+  body, .header {
+    background-color: #fad0a0;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body, .header {
+    background-color: #f3cb87;
+  }
+}
+@media only screen and (min-width: 961px) {
+  body, .header {
+    background-color: #fcf5e3;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

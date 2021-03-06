@@ -1,0 +1,19 @@
+/*Media querys*/
+
+@media only screen and (max-width:400px) {
+    body,.header{
+        background-color: rgb(250, 208, 160);
+    }
+}
+   
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body, .header{
+        background-color: #f3cb87;
+    }
+}
+
+@media only screen and (min-width:961px){
+        body, .header{
+            background-color: rgb(252, 245, 227);
+        }
+}

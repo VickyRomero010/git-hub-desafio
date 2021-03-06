@@ -1,0 +1,20 @@
+/*Html tops*/
+h1{
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    color: $color-primario;
+    background-color: $bg-color;
+}
+
+.Galeria{
+    padding: 40px;
+    text-align: center;
+
+    .card{
+        padding: 15px;
+        margin-top: 10px;
+        display: inline-flex;
+    }
+}
+
