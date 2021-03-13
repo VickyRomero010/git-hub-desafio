@@ -171,3 +171,21 @@ h1{
   .Galeria-pantalones .card-title {
     text-align: center;
   } 
+
+
+
+  /* HTML pantalones*/
+
+.Galeria-pantalones{
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .card-img-top {
+    width: 28rem;
+  }
+  
+  .card-title {
+    text-align: center;
+  }
+  
